@@ -1,0 +1,53 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+} */
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(105, 100, 91, 0.432);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cal{
+    background-color: rgb(133, 116, 116);
+    padding: 20px;
+    border-radius: 5px;
+}
+/* .cal .btn{
+    margin-top: 5px;
+} */
+.inp{
+    display: flex;
+    justify-content:flex-end ;
+    flex: 1;
+}
+
+form .dis{
+    text-align: right;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    background-color: transparent;
+    box-shadow: 3px;
+    font-size: larger;
+    margin-bottom: 24px;
+}
+.btn, .equal{
+    height: 60px;
+    width: 60px;
+    border: 0;
+    background-color: rgb(107, 114, 121);
+    margin: 3px;
+    font-size: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.equal{
+    width: 130px;
+}
